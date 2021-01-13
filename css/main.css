@@ -87,3 +87,21 @@ footer a{
 table i{
     color:rgba(252,163,17,1);
 }
+#btn-inf{
+    position:fixed;
+    bottom: 18%;
+    right: .5%;
+}
+#btn-inf .btn-info{
+    width: 3em;
+    height:3em;
+    border-radius: 40%;
+    text-align: center;
+}
+#btn-inf .btn-info i{
+    font-size: 2em;
+}
+#btn-inf .btn-info:hover{
+    background: brown;
+    color: whitesmoke;
+}
