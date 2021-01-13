@@ -18,6 +18,9 @@
     text-decoration: none;
     color: gray ;
 }
+.carousel-inner img{
+    border-radius: 2%;
+}
 .colR{
     width: 100%;
 }

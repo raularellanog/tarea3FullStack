@@ -47,14 +47,56 @@
       </div>
     </div>
     <!-- breadcrumb -->
-    <div class="container bread">
+    <div class="container bread cont-1">
       <nav class="breadcrumb" aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item active" aria-label="page"><a href="#">home</a></li>
         </ol>
       </nav>
+      <!-- carrousel -->
+      <div class="row justify-content-center">
+        <div class="col-6 col-carousel">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2500">
+                <img src="/img/car1.jpg" class="d-block w-100" alt="playa1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Las mejores playas</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img src="/img/car2.jpg" class="d-block w-100" alt="playa2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Las mejores vistas</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2500">
+                <img src="/img/car3.jpg" class="d-block w-100" alt="polaya3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>disfruta de la tranquilidad</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--  -->
 
     <!-- contenido -->
     <div class="container">
