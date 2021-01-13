@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/3341fbb1f9.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Tarea 2</title>
+    <title>Tarea 3</title>
   </head>
   <body>
     <!-- banner promocion -->
@@ -55,7 +55,7 @@
       </nav>
       <!-- carrousel -->
       <div class="row justify-content-center">
-        <div class="col-6 col-carousel">
+        <div class="col-sm-12 col-md-6  col-carousel">
           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
               <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
@@ -98,29 +98,46 @@
       </div>
     </div>
 
-    <!-- contenido -->
+    <!-- contenido question -->
     <div class="container">
-      <div class="d-flex flex-row colR">
-          <div class="d-flex flex-column colP">
-            <h3>¿Cómo funciona?</h3>
-            <p>Busca hoteles deacuerdo a tu preferencia</p>
-          </div>
-          <div class="d-flex flex-column colP">
-            <h3>¿Dónde puedo reservar?</h3>
-            <p>Elige la ciudad de tu preferencia, verifica el precio y reserva tu lugar</p>
-          </div>
-          <div class="d-flex flex-column colP">
-            <h3>¿Como se paga?</h3>
-            <p><ul>
-              <li>Tarjeta de credito</li>
-              <li>Tarjeta de debito</li>
-              <li>Paypal</li>
-              <li>Transferencia bancaria</li>
-            </ul></p>
-          </div>
+     <div class="row">
+        <div class="col-4 d-grid px-1">
+          <a class="btn btn-outline-secondary btn-block "  data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="tru" aria-controls="multiCollapse">¿Comó pago?</a>
+        </div>
+        <div class="col-4 d-grid px-1">
+          <a class="btn btn-outline-secondary btn-block " data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="tru" aria-controls="multiCollapse">¿Dónde puedo reservar?</a>
+        </div>
+        <div class="col-4 d-grid px-1">
+          <a class="btn btn-outline-secondary btn-block " data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="tru" aria-controls="multiCollapse">¿Como se paga?</a>
+        </div>
+     </div>
+     <div class="row">
+      <div class="col-4">
+        <div class="collapse multi-collapse" id="multiCollapse1">
+          <h3>¿Cómo funciona?</h3>
+          <p>Busca hoteles deacuerdo a tu preferencia</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="collapse multi-collapse" id="multiCollapse2">
+          <h3>¿Dónde puedo reservar?</h3>
+          <p>Elige la ciudad de tu preferencia, verifica el precio y reserva tu lugar</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="collapse multi-collapse" id="multiCollapse3">
+          <h3>¿Como se paga?</h3>
+          <p><ul>
+            <li>Tarjeta de credito</li>
+            <li>Tarjeta de debito</li>
+            <li>Paypal</li>
+            <li>Transferencia bancaria</li>
+          </ul></p>
+        </div>
       </div>
     </div>
-
+    </div>
+    <!-- contenido card -->
     <div class="container">
       <div class="row d-flex flex-row-reverse">
         <div class="card">
